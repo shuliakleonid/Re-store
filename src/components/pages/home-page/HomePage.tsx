@@ -8,20 +8,20 @@ export interface BooksType  {
 }
 
 const HomePage = () => {
-  const books:Array<BooksType> = [
-    {
-      id: 1,
-      title: 'kldhf;hfd',
-      author: 'kdlfj;alsjfkds;'
-    },
-    {
-      id: 2,
-      title: 'kldsfds',
-      author: 'kdfdskds;'
-    },
-  ];
+  // const books:Array<BooksType> = [
+  //   {
+  //     id: 1,
+  //     title: 'kldhf;hfd',
+  //     author: 'kdlfj;alsjfkds;'
+  //   },
+  //   {
+  //     id: 2,
+  //     title: 'kldsfds',
+  //     author: 'kdfdskds;'
+  //   },
+  // ];
   return (
-      <div><BookList books={books}/></div>
+      <div><BookList /></div>
   );
 };
 
