@@ -1,4 +1,4 @@
- const booksLoaded = (newBooks:any) =>{
+ const booksLoaded = (newBooks:string) =>{
   return{
     type:'BOOKS_LOADED',
     payload:{

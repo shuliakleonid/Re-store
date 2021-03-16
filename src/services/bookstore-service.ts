@@ -1,4 +1,10 @@
-export default class BookstoreService {
+import {BooksType} from '../components/pages/home-page/HomePage';
+
+export interface BookstoreServiceType{
+  getBooks():Array<BooksType>
+}
+
+export default class BookstoreService implements BookstoreServiceType {
 
   getBooks() {
     return [

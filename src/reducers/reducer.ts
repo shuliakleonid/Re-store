@@ -6,16 +6,16 @@ export type InitialStateType = {
 
 const initialState:InitialStateType = {
   books: [
-    {
-      id: 1,
-      title: 'kldhf;hfd',
-      author: 'kdlfj;alsjfkds;'
-    },
-    {
-      id: 2,
-      title: 'kldsfds',
-      author: 'kdfdskds;'
-    },
+    // {
+    //   id: 1,
+    //   title: 'kldhf;hfd',
+    //   author: 'kdlfj;alsjfkds;'
+    // },
+    // {
+    //   id: 2,
+    //   title: 'kldsfds',
+    //   author: 'kdfdskds;'
+    // },
   ]
 }
 
