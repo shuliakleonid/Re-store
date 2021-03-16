@@ -1,6 +1,8 @@
 import React from 'react';
+import {withBookstoreService} from '../hoc/with-bookstore-service';
 
-const App = () => {
+const App:React.FC<any> = ({bookstoreService}) => {
+  console.log(bookstoreService.getBooks)
   return (
       <div>
         App
@@ -8,4 +10,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default withBookstoreService()(App);
