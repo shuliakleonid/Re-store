@@ -2,7 +2,8 @@ import React from "react";
 import { BookstoreServiceConsumer } from "../book-service-context/book-services-context";
 
 export function withBookstoreService () {
- return function<T>(Component:React.ComponentType<T>){
+
+ return function<T>(Component:React.ComponentType<T>)  {
   debugger
   return (props:any) => {
     return (

@@ -48,6 +48,5 @@ const mapStateToProps = (state: InitialStateType) => {
 
 // export default withBookstoreService()(connect(mapStateToProps,{bookLoaded})(BookList));
 export default compose<React.ComponentType>(
-    connect(mapStateToProps,
-        {booksLoaded}),
+    connect(mapStateToProps, {booksLoaded}),
     withBookstoreService)(BookList)

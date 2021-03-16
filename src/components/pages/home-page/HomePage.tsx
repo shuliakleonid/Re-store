@@ -8,11 +8,7 @@ export interface BooksType {
 }
 
 const HomePage = () => {
-
-
-  return (
-      <div><BookList/></div>
-  );
+  return <div><BookList/></div>
 };
 
 export default HomePage;

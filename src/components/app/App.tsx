@@ -3,7 +3,11 @@ import {withBookstoreService} from '../hoc/with-bookstore-service';
 import CartPage from '../pages/cart-page/CartPage';
 import {Switch,Route} from 'react-router-dom'
 import HomePage from '../pages/home-page/HomePage';
-const App:React.FC<any> = () => {
+
+
+
+
+const App:React.FC = () => {
   return (
       <div>
 <Switch>
@@ -15,4 +19,4 @@ const App:React.FC<any> = () => {
   );
 };
 
-export default withBookstoreService()(App);
+export default App;
