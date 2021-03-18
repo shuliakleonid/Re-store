@@ -5,9 +5,12 @@ export interface BooksType {
   id: number
   title: string
   author: string
+  price: number
+  coverImage: string
 }
 
 const HomePage = () => {
+  debugger
   return <div><BookList/></div>
 };
 
